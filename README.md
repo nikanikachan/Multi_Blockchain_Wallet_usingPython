@@ -12,7 +12,7 @@ In this section, I used a mnemonic to generate wallet addresses for different cr
 
 ## Linking Transaction Libraries
 
-Then I created 3 functions to be able to manage my crytocurrencies using python.  For this example, I used only ETH and BTCTEST cryptocurrencies. Note that ETH and BTCTEST have different libraries that connect it to python so I used if/elif statements so I can use the same function to connect to either my ETH or BTCTEST wallets. See my pythong code here:  [Python file with  functions](https://github.com/nikanikachan/Wallet/wallet_hw19.py).
+Then I created 3 functions to be able to manage my crytocurrencies using python.  For this example, I used only ETH and BTCTEST cryptocurrencies. Note that ETH and BTCTEST have different libraries that connect it to python so I used if/elif statements so I can use the same function to connect to either my ETH or BTCTEST wallets. See my pythong code here:  [Python file with  functions](https://github.com/nikanikachan/Wallet/blob/main/wallet_hw19.py).
 
 Description of functions created:
 
@@ -28,7 +28,7 @@ For Bitcoin testnet, I had to get bitcoins from a faucet to have funds in my BTC
 
 ![Faucet](Screenshots/btc_testnet.png)
 
-Then I used the command line in my computer to run python functions to send a test transaction to another bitcoin testnet address. See python file I called in my command line here:[Bitcoin Testnet Python file](https://github.com/nikanikachan/Wallet/bit_txn.py). Unfortunately, I have insufficient funds to send a transaction because of the unusually high gasprice at the time of sending. See below screenshot:
+Then I used the command line in my computer to run python functions to send a test transaction to another bitcoin testnet address. See python file I called in my command line here:[Bitcoin Testnet Python file](https://github.com/nikanikachan/Wallet/blob/main/btc_txn.py). Unfortunately, I have insufficient funds to send a transaction because of the unusually high gasprice at the time of sending. See below screenshot:
 
 ![insuffucient](Screenshots/bit_screen.png)
 
@@ -45,7 +45,7 @@ I also tested the code we created in python to create transactions in our ETH Po
 
  ![Hash](Screenshots/mycrypto_txn_hash.png)
 
-Unfortunately, my local nodes were not mining properly and the transaction is still Pending, but we can see that the python code that we used was able to send a transaction in the blockchain and we can trace it with the hash that was generated in the file. See this python file for full code. [Python file for code](https://github.com/nikanikachan/Wallet/bit_txn.py)
+Unfortunately, my local nodes were not mining properly and the transaction is still Pending, but we can see that the python code that we used was able to send a transaction in the blockchain and we can trace it with the hash that was generated in the file. See this python file for full code. [Python file for code](https://github.com/nikanikachan/Wallet/blob/main/wallet_hw19.py)
 
 ----------------------
 

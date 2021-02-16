@@ -110,5 +110,5 @@ def send_tx(coin, account, to, amount):
 
 # Sending a Transaction
 
-result = send_txn(BTC, account_one, 1818181818181818181, "0x2810e1BDA9b02c0286FC8d0e786E8E9c1B31Cf00")
+result = send_txn(ETH, account_one, 1818181818181818181, "0x2810e1BDA9b02c0286FC8d0e786E8E9c1B31Cf00")
 print(result)
